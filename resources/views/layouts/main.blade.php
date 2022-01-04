@@ -15,7 +15,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         
         <!-- CSS da Aplicação -->
-        <link href="css/styles.css" rel="stylesheet">
+        <link href="../css/styles.css" rel="stylesheet" type="text/css"/>
         <script src="js/scripts.js"></script>
 
     </head>
@@ -32,6 +32,9 @@
                         </li>
                         <li class="nav-item">
                             <a href="/produto/criar" class="nav-link">Cadastrar Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/movimentacao/criar" class="nav-link">Movimentar Produtos</a>
                         </li>
                         <li class="nav-item">
                             <a href="/historico" class="nav-link">Histórico</a>

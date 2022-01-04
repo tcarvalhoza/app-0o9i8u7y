@@ -18,6 +18,7 @@ class CreateProdutoTable extends Migration
             $table->string('nome');
             $table->string('sku');
             $table->integer('quantidade');
+            $table->timestamps();
         });
     }
 
