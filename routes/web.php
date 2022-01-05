@@ -10,4 +10,8 @@ Route::get('/produto/criar', [ProdutoController::class, 'criar']);
 Route::post('/produtos', [ProdutoController::class, 'store']);
 Route::get('/produto/visualizar/{id?}', [ProdutoController::class, 'visualizar']);
 Route::get('/produto/deletar/{id?}', [ProdutoController::class, 'deletar']);
-Route::get('/movimentacao/criar', [MovimentacaoController::class, 'criar']);
+
+Route::get('/movimentacao/criar/{id?}', [MovimentacaoController::class, 'criar']);
+Route::post('/movimentacoes', [MovimentacaoController::class, 'store']);
+Route::get('/movimentacao/visualizar/{id?}', [MovimentacaoController::class, 'visualizar']);
+Route::get('/movimentacao/historico/{id?}', [MovimentacaoController::class, 'historico']);
